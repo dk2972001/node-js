@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+
+#desi-crav {
+  font-family: 'Indie Flower', sans-serif;
+  font-size: 3.3em;
+  padding-left: 25px;
+
+}
+.App {
+  text-align: center;
+   color: darkgoldenrod;
+}
+
+.button-seperate{
+  background: none;
+  margin: 5px !important;
+  color:darkgoldenrod;
+  
+}
+
+* {
+  background: url('./8.webp') no-repeat fixed;
+  background-size: cover;
+}
+
+.button-logout{ 
+  width: 50%;
+  color:darkgoldenrod;
+}
+
+.btn-toolbar > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color:darkgoldenrod;
+  
+}
+
+
+.navbar {
+  border: none;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+  
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.nav-buttons {
+  padding: 10px;
+  color:darkgoldenrod;
+  
+}
+.btn-toolbar {
+  width: 16em;
+  color: #07bc0c;
+}
+
+.toastify-content--success .toastify__body {
+  background: #07bc0c;
+}
+
+.toastify-content--error .toastify__body{
+  background: #e74c3c;
+}
+
+@media screen and (max-width: 500px) {
+  .btn-toolbar > div{
+    justify-content: space-around;
+    color:darkgoldenrod;
+  }
+
+  .navbar-right{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .btn-toolbar{
+    width: 100%;
+    color:darkgoldenrod;
+  }
+
+  h2{
+    font-size: 24px;
+  }
+}
